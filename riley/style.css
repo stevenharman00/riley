@@ -1,0 +1,70 @@
+html,body{
+	margin: 0;
+}
+body{
+	font-family: Lobster;
+	font-size: 22px;
+background: #4AC29A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+nav {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  padding: 5px;
+  margin: 10px;
+}
+a {
+  color: #5a8f90;
+  text-decoration: none;
+}
+h1 {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#hero {
+  float: left;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 7px;
+}
+.about {
+  float: right;
+  margin-right: 50px;
+}
+p {
+  text-align: justify;
+  margin-right:10px;
+  margin-top: 0;
+  font-family: Mali;
+}
+
+img {
+  max-height: 700px;
+  max-width: 700px;
+}
+.carousel-item{
+  text-align: center;
+
+}
+.container-fluid {
+   background: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(riley/palm.jpg) no-repeat center center fixed; 
+  border: 5px solid yellow;
+}
+
+
+
+
+
+
